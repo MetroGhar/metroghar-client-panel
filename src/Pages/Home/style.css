@@ -1,0 +1,77 @@
+.cardImg{
+    width: 530px;
+    height: 340px;
+    left: 98px;
+    top: 601px;
+    filter: drop-shadow(-5px 5px 12px rgba(0, 0, 0, 0.21));
+    border-radius: 15px 0px 0px 15px;
+}
+.secondBox{
+    width: 698px;
+    height: 341px;
+    left: 628px;
+    top: 600px;
+    background: #FFFFFF;
+    border: 0.2px solid #828282;
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 0px 15px 15px 0px;
+    padding: 10px;
+}
+.head{
+    width: 216px;
+    height: 60px;
+    left: 648px;
+    top: 621px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    /* identical to box height */
+    color: #212121;
+}
+.price{
+    width: 111px;
+    height: 53px;
+    left: 1161px;
+    top: 625px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 52px;
+    /* identical to box height */
+    color: #000000;
+}
+.location{
+    width: 142px;
+    height: 33px;
+    left: 683px;
+    top: 686px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 33px;
+    /* identical to box height */
+    color: #000000;
+}
+.subbb{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+}
+.subbb p{
+    width: 160px;
+    height: 35px;
+    left: 935px;
+    top: 828px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 23px;
+    line-height: 34px;
+    /* identical to box height */
+    color: #212121;
+    margin-bottom: 0;
+}

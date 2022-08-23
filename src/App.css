@@ -1,0 +1,35 @@
+.rec.rec-arrow {
+    border-radius: 4px;
+    width: 42px;
+    height: 80px;
+    background: #fff;
+}
+/* round buttons on hover */
+.rec.rec-arrow:hover, .rec.rec-arrow:focus {
+    background-color: #fff;
+}
+.rec.rec-arrow.rec-arrow-right {
+    position: absolute;
+    right: 6.5vw;
+}
+.rec.rec-arrow.rec-arrow-left {
+    position: absolute;
+    left: 6.5vw;
+    z-index: 10;
+}
+
+/* hide disabled buttons */
+.rec.rec-arrow:disabled {
+    visibility: hidden;
+}
+
+.hHJTFD{
+    margin: 0!important;
+  }
+
+.imgViewMore{
+    opacity: 0.6;
+}
+.imgViewMore:hover{
+    opacity: 1;
+}
